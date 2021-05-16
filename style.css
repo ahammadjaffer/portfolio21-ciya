@@ -1,0 +1,220 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1d2d50;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.menuul {
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fcdab7;
+}
+.menulist {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px;
+}
+.menulist:hover {
+    color: #1e5f74;
+    background-color: #fcdab7;
+    transition: 1s;
+    transition-timing-function: ease;
+    border-radius: 15px 15px 15px 15px;
+}
+.landingbox {
+    padding-top: 15%;
+    height: 61vh;
+}
+.landingheader1 {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+.landingheadertext {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    color: #fcdab7;
+}
+.landingheader2 {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+.headercontentbox {
+    background-color: #fcdab7;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+.headercontenttext {
+    padding: 10%;
+    color: #1d2d50;
+}
+.divbtnloadmore {
+    background-color: #1d2d50;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+}
+.btnloadmore {
+    width: 155px;
+    height: 55px;
+    border-color: #fcdab7;
+    background-color: #1d2d50;
+    color: #fcdab7;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.btnloadmore:hover {
+    background-color: #fcdab7;
+    color: #1e5f74;
+    transition: 1s;
+}
+.aboutbox {
+    background-color: #fcdab7;
+    border-radius: 15px 15px 15px 15px;
+    /* height: 75vh; */
+    margin-bottom: 35px;
+    color: #1d2d50;
+}
+.aboutheadertext {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 3em;
+    font-weight: 900;
+}
+h3.aboutheadertext {
+    font-size: 2em;
+}
+.aboutcontenttext {
+    padding: 0 55px;
+    text-align: justify;
+}
+.aboutcardbox {
+    margin: 0 5%;
+}
+.aboutcards {
+    background-color: #1e5f74;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    width: 33%;
+    height: 205px;
+    margin-bottom: 10px;
+}
+.cardtext {
+    color: #fcdab7;
+    text-align: center;
+}
+p.cardtext {
+    margin: 15px;
+    color: whitesmoke;
+    text-align: center;
+}
+.contactcardbox {
+    border-radius: 15px 15px 15px 15px;
+    border-color: #fcdab7;
+    border-style: solid;
+    height: 75vh;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.contactheadertext {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 3em;
+    font-weight: 900;
+    color: #fcdab7;
+}
+.contactform {
+    padding: 0 10%;
+}
+.inputform {
+    height: 35px;
+    width: 100%;
+}
+.contactformtextarea {
+    width: 100%;
+}
+input[type="text"], textarea {
+    color: #1d2d50;
+    background-color : #fcdab7;
+}
+.btnsubmit {
+    padding: 10px 25px;
+    background-color : #fcdab7;
+    border-radius: 5px;
+    color: #1e5f74;
+}
+.btnsubmit:hover {
+    border-color: #fcdab7;
+    background-color: #1d2d50;
+    color: #fcdab7;
+    transition: 1s;
+}
+.footer {
+    color: #fcdab7;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .menuul {
+        float: none;
+        position: absolute;
+        left: 0%;
+        transform: translate(0%, 0%);
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .menulist {
+        display: inline-block;
+        padding: 3px 3px;
+    }
+    .landingbox {
+        margin-bottom: 55px;
+    }
+    .landingheader1 {
+        display: block;
+        width: 100%;
+    }
+    .landingheader2 {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
